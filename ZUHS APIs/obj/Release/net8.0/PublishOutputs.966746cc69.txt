@@ -1,0 +1,24 @@
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\ZUHS APIs.exe
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\ZUHS APIs.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\ZUHS APIs.deps.json
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\ZUHS APIs.runtimeconfig.json
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\ZUHS APIs.pdb
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\System.Data.Odbc.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\System.Diagnostics.EventLog.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\runtimes\unix\lib\net8.0\System.Data.Odbc.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net8.0\System.Data.Odbc.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\Interop.PasSDK.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\Partner DLL.dll
+C:\Users\Joshua\source\repos\ZUHS APIs\ZUHS APIs\obj\Release\net8.0\PubTmp\Out\Pervasive.Data.SqlClient.dll

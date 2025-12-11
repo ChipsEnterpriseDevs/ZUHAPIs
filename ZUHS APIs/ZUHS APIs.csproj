@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ZUHS_APIs</RootNamespace>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="System.Data.Odbc" Version="9.0.6" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="9.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Interop.PasSDK">
+      <HintPath>..\..\..\..\Documents\sage evolution dll\Interop.PasSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Partner DLL">
+      <HintPath>..\..\..\..\Documents\sage evolution dll\Sage Pastel\Partner DLL.dll</HintPath>
+    </Reference>
+    <Reference Include="Pervasive.Data.SqlClient">
+      <HintPath>..\..\..\..\Documents\sage evolution dll\Pervasive.Data.SqlClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

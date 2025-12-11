@@ -1,0 +1,6 @@
+@ZUHS_APIs_HostAddress = http://localhost:5064
+
+GET {{ZUHS_APIs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
