@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZUHS APIs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9731d04bef313e559226c97f8f162ce4398397f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZUHS APIs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZUHS APIs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

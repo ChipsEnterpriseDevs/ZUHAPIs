@@ -15,14 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Interop.PasSDK">
-      <HintPath>..\..\..\..\Documents\sage evolution dll\Interop.PasSDK.dll</HintPath>
-    </Reference>
     <Reference Include="Partner DLL">
-      <HintPath>..\..\..\..\Documents\sage evolution dll\Sage Pastel\Partner DLL.dll</HintPath>
+      <HintPath>..\..\..\..\..\Documents\sage evolution dll\SMED\Partner DLL.dll</HintPath>
     </Reference>
     <Reference Include="Pervasive.Data.SqlClient">
-      <HintPath>..\..\..\..\Documents\sage evolution dll\Pervasive.Data.SqlClient.dll</HintPath>
+      <HintPath>..\..\..\..\..\Documents\sage evolution dll\Pervasive.Data.SqlClient.dll</HintPath>
     </Reference>
   </ItemGroup>
 

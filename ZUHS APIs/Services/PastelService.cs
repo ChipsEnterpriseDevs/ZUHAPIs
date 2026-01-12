@@ -25,12 +25,7 @@ namespace ZUHS_APIs.Services
             try
             {
                 // Direct value passing in query (as per your requirement)
-                string query = $@"select CustomerCode ,
-                                        case CurrencyCode
-			                                when 0 then 'ZWG'
-			                                else 'USD'
-		                                end		CurrencyCode
-                                    from CustomerMaster WHERE CustomerCode = '{customerCode}'";
+                string query = $@"select AccNumber from LedgerMaster where accNumber ='{customerCode}'";
 
                 _logger.LogInformation($"Fetching customer {customerCode}");
                 return _dbService.ExecuteDataTable(query);

@@ -1,47 +1,15 @@
 [
   {
     "ContainingType": "ZUHS_APIs.Controllers.PastelController",
-    "Method": "CheckCustomerExists",
-    "RelativePath": "api/Pastel/Customer",
+    "Method": "Journal",
+    "RelativePath": "api/Pastel/Journal",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "ZUHS_APIs.Models.Customer",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ZUHS_APIs.Controllers.PastelController",
-    "Method": "PostInvoice",
-    "RelativePath": "api/Pastel/Invoice",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "invoiceRequest",
-        "Type": "ZUHS_APIs.Models.InvoiceHeader",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ZUHS_APIs.Controllers.PastelController",
-    "Method": "PostPayment",
-    "RelativePath": "api/Pastel/Payment",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "paymentRequest",
-        "Type": "ZUHS_APIs.Models.PaymentRequest",
+        "Name": "journalrequest",
+        "Type": "ZUHS_APIs.Models.JournalRequest",
         "IsRequired": true
       }
     ],
