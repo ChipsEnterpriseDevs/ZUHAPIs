@@ -90,3 +90,14 @@ C:\Users\Joshua\source\repos\SMED\SMED APIs\ZUHS APIs\obj\Debug\net8.0\refint\ZU
 C:\Users\Joshua\source\repos\SMED\SMED APIs\ZUHS APIs\obj\Debug\net8.0\ZUHS APIs.pdb
 C:\Users\Joshua\source\repos\SMED\SMED APIs\ZUHS APIs\obj\Debug\net8.0\ZUHS APIs.genruntimeconfig.cache
 C:\Users\Joshua\source\repos\SMED\SMED APIs\ZUHS APIs\obj\Debug\net8.0\ref\ZUHS APIs.dll
+C:\Users\Blessed\Desktop\Dev\SMEDO\ZUHAPIs\ZUHS APIs\obj\Debug\net8.0\ZUHS APIs.csproj.AssemblyReference.cache
+C:\Users\Blessed\Desktop\Dev\SMEDO\ZUHAPIs\ZUHS APIs\obj\Debug\net8.0\ZUHS APIs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Blessed\Desktop\Dev\SMEDO\ZUHAPIs\ZUHS APIs\obj\Debug\net8.0\ZUHS APIs.AssemblyInfoInputs.cache
+C:\Users\Blessed\Desktop\Dev\SMEDO\ZUHAPIs\ZUHS APIs\obj\Debug\net8.0\ZUHS APIs.AssemblyInfo.cs
+C:\Users\Blessed\Desktop\Dev\SMEDO\ZUHAPIs\ZUHS APIs\obj\Debug\net8.0\ZUHS APIs.csproj.CoreCompileInputs.cache
+C:\Users\Blessed\Desktop\Dev\SMEDO\ZUHAPIs\ZUHS APIs\obj\Debug\net8.0\ZUHS APIs.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Blessed\Desktop\Dev\SMEDO\ZUHAPIs\ZUHS APIs\obj\Debug\net8.0\ZUHS APIs.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Blessed\Desktop\Dev\SMEDO\ZUHAPIs\ZUHS APIs\obj\Debug\net8.0\ZUHS APIs.sourcelink.json
+C:\Users\Blessed\Desktop\Dev\SMEDO\ZUHAPIs\ZUHS APIs\obj\Debug\net8.0\ZUHS APIs.dll
+C:\Users\Blessed\Desktop\Dev\SMEDO\ZUHAPIs\ZUHS APIs\obj\Debug\net8.0\refint\ZUHS APIs.dll
+C:\Users\Blessed\Desktop\Dev\SMEDO\ZUHAPIs\ZUHS APIs\obj\Debug\net8.0\ZUHS APIs.pdb

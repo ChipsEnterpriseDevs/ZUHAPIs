@@ -78,6 +78,10 @@ using ZUHS_APIs.Intefaces;
 using ZUHS_APIs.Interfaces;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -119,6 +123,32 @@ try
 
     builder.Services.AddEndpointsApiExplorer();
 
+    // JWT Authentication
+    var jwtSettings = builder.Configuration.GetSection("Jwt");
+    var key = Encoding.UTF8.GetBytes(jwtSettings["Key"]);
+
+    builder.Services.AddAuthentication(options =>
+    {
+        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    })
+            .AddJwtBearer(options =>
+            {
+                options.RequireHttpsMetadata = false; // set true in production with HTTPS
+                options.SaveToken = true;
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = jwtSettings["Issuer"],
+                    ValidAudience = jwtSettings["Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ClockSkew = TimeSpan.Zero // ensures expiry is exact
+                };
+            });
+
     // Configure Swagger for all environments
     builder.Services.AddSwaggerGen(c =>
     {
@@ -140,8 +170,11 @@ try
         // c.IncludeXmlComments(xmlPath);
     });
 
+    builder.Services.AddAuthorization();
+
     var app = builder.Build();
 
+    
     // Configure the HTTP request pipeline.
 
     // Enable Swagger in all environments

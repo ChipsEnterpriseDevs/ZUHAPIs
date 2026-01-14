@@ -6,9 +6,11 @@ using ZUHS_APIs.Models;
 using ZUHS_APIs.Intefaces;
 using Escrow_Pastel_Integration;
 using System.Runtime.ConstrainedExecution;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ZUHS_APIs.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class PastelController : ControllerBase  
